@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container {
+  margin: 30px auto;
+  border-color: gray;
+  height: 650px;
+  width: 550px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-title {
+  font-family: 'Work Sans', sans-serif;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.score {
+  margin-top: 25px;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.game-button {
+  height: 35px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0px gray;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: lightgray;
+}
+
+.new-game {
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.game-button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+  outline: none;
+}
+
+.game-button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.questions-list-container {
+  overflow-y: scroll;
+  height: 480px;
+}
+
+.question-container {
+  border: 2px solid gray;
+  margin: 20px 20px 15px 20px;
+  background-color: lightgray;
+  height: 90px;
+}
+
+.question-text {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.question-button {
+  margin: 15px 0px 15px 15px;
+}
+
+.name-input {
+  height: 35px;
+  margin-left: 20px;
+  width: 290px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.submit-button {
+  width: 180px;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.inCorrect {
+  background-color: red;
+}
+
+.highlight {
+  background-color: red;
+}
