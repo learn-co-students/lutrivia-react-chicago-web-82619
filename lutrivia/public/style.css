@@ -62,7 +62,7 @@ body {
 }
 
 .game-button:hover {
-  background-color: lightgray;
+  /* background-color: lightgray; */
   cursor: pointer;
 }
 
@@ -105,14 +105,12 @@ body {
   width: 180px;
 }
 
-.correct {
-  background-color: lightgreen;
-}
-
-.inCorrect {
-  background-color: red;
-}
-
 .highlight {
-  background-color: red;
+  background-color: lightsalmon;
+}
+
+.correct {
+  margin-top: -40px;
+  margin-left: 150px;
+  color: green;
 }

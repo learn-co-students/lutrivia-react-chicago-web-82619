@@ -16,29 +16,29 @@ export default {
             text: "Otters stay warm through a combination of blubber and fur.",
             answer: false
         },
-        // {
-        //     text: "Otters commonly engage in playful behaviors.",
-        //     answer: true
-        // },
-        // {
-        //     text: "There are only three existing otter species: sea otter, ",
-        //     answer: false
-        // },
-        // {
-        //     text: "Fish is a staple of the otter diet.",
-        //     answer: true
-        // },
-        // {
-        //     text: "The otter gestation period is between 60 to 86 days.",
-        //     answer: true
-        // },
-        // {
-        //     text: "Otters live all over the world.",
-        //     answer: true
-        // },
-        // {
-        //     text: "Otters show up in myths from different cultures.",
-        //     answer: true
-        // }
+        {
+            text: "Otters commonly engage in playful behaviors.",
+            answer: true
+        },
+        {
+            text: "There are only three existing otter species: sea otter, ",
+            answer: false
+        },
+        {
+            text: "Fish is a staple of the otter diet.",
+            answer: true
+        },
+        {
+            text: "The otter gestation period is between 60 to 86 days.",
+            answer: true
+        },
+        {
+            text: "Otters live all over the world.",
+            answer: true
+        },
+        {
+            text: "Otters show up in myths from different cultures.",
+            answer: true
+        }
     ]
 }
