@@ -1,0 +1,14 @@
+{
+  "scores": [
+    {
+      "name": "Joseph",
+      "score": 10,
+      "id": 1
+    },
+    {
+      "name": "test",
+      "score": 0,
+      "id": 2
+    }
+  ]
+}

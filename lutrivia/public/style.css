@@ -67,13 +67,14 @@ body {
 }
 
 .questions-list-container {
+  margin-top: 20px;
   overflow-y: scroll;
-  height: 480px;
+  height: 460px;
 }
 
 .question-container {
   border: 2px solid gray;
-  margin: 20px 20px 15px 20px;
+  margin: 0px 20px 15px 20px;
   background-color: lightgray;
   height: 90px;
 }
@@ -113,4 +114,37 @@ body {
   margin-top: -40px;
   margin-left: 150px;
   color: green;
+}
+
+.scores-container {
+  margin-left: 800px;
+  margin-top: -600px;
+  height: 500px;
+  width: 200px;
+  border: 2px solid gray;
+  overflow-y: scroll;
+}
+
+.scores-container h2 {
+  margin: 10px 0 10px 10px;
+  text-decoration: underline;
+}
+
+table {
+  margin-left: 10px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 90px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+thead {
+  background-color: #dddddd;
 }
